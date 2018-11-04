@@ -4,8 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:correct": "npx eslint --format compact tests/**/correct.js",
-    "test:incorrect": "npx eslint --format compact tests/**/incorrect.js"
+    "test": "npx mocha tests/index.js"
   },
   "repository": {
     "type": "git",
