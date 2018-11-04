@@ -1,5 +1,8 @@
 module.exports = {
   rules: {
-    semi: "error",
+    // Possible Errors
+    "for-direction": "error",
+    // Stylistic Issues
+    "semi": "error",
   },
 };
