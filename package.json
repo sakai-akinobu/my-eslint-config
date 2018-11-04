@@ -19,6 +19,7 @@
   "homepage": "https://github.com/sakai-akinobu/my-eslint-config#readme",
   "devDependencies": {
     "eslint": "^5.8.0",
-    "mocha": "^5.2.0"
+    "mocha": "^5.2.0",
+    "power-assert": "^1.6.1"
   }
 }
