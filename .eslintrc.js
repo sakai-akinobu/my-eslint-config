@@ -14,6 +14,7 @@ module.exports = {
     "no-control-regex": "error",
     "no-debugger": "error",
     "no-dupe-args": "error",
+    "no-dupe-keys": "error",
     // Stylistic Issues
     "semi": "error",
   },
