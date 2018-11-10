@@ -23,6 +23,7 @@ module.exports = {
     "no-extra-parens": "error",
     "no-extra-semi": "error",
     "no-func-assign": "error",
+    "no-inner-declarations": "error",
     // Stylistic Issues
     "semi": "error",
   },
