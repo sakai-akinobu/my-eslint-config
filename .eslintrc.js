@@ -11,6 +11,7 @@ module.exports = {
     "no-cond-assign": "error",
     "no-console": "error",
     "no-constant-condition": "error",
+    "no-control-regex": "error",
     // Stylistic Issues
     "semi": "error",
   },
