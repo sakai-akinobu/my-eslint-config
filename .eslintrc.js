@@ -24,6 +24,7 @@ module.exports = {
     "no-extra-semi": "error",
     "no-func-assign": "error",
     "no-inner-declarations": "error",
+    "no-invalid-regexp": "error",
     // Stylistic Issues
     "semi": "error",
   },
