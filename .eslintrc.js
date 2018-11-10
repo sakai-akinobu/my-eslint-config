@@ -19,6 +19,7 @@ module.exports = {
     "no-empty": "error",
     "no-empty-character-class": "error",
     "no-ex-assign": "error",
+    "no-extra-boolean-cast": "error",
     // Stylistic Issues
     "semi": "error",
   },
