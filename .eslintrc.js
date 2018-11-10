@@ -12,6 +12,7 @@ module.exports = {
     "no-console": "error",
     "no-constant-condition": "error",
     "no-control-regex": "error",
+    "no-debugger": "error",
     // Stylistic Issues
     "semi": "error",
   },
