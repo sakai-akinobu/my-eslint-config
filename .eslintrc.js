@@ -18,6 +18,7 @@ module.exports = {
     "no-duplicate-case": "error",
     "no-empty": "error",
     "no-empty-character-class": "error",
+    "no-ex-assign": "error",
     // Stylistic Issues
     "semi": "error",
   },
