@@ -13,6 +13,7 @@ module.exports = {
     "no-constant-condition": "error",
     "no-control-regex": "error",
     "no-debugger": "error",
+    "no-dupe-args": "error",
     // Stylistic Issues
     "semi": "error",
   },
