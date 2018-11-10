@@ -8,6 +8,7 @@ module.exports = {
     "getter-return": "error",
     "no-async-promise-executor": "error",
     "no-compare-neg-zero": "error",
+    "no-cond-assign": "error",
     // Stylistic Issues
     "semi": "error",
   },
