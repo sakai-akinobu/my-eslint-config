@@ -22,6 +22,7 @@ module.exports = {
     "no-extra-boolean-cast": "error",
     "no-extra-parens": "error",
     "no-extra-semi": "error",
+    "no-func-assign": "error",
     // Stylistic Issues
     "semi": "error",
   },
