@@ -44,6 +44,7 @@ module.exports = {
     "dot-notation": "error",
     "eqeqeq": "error",
     "no-caller": "error",
+    "no-case-declarations": "error",
     // Stylistic Issues
     "semi": "error",
   },
