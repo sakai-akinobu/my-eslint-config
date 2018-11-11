@@ -59,6 +59,7 @@ module.exports = {
     "no-return-assign": "error",
     "no-self-assign": "error",
     "no-unused-labels": "error",
+    "no-useless-escape": "error",
     // Stylistic Issues
     "semi": "error",
   },
