@@ -62,6 +62,7 @@ module.exports = {
     "no-useless-escape": "error",
     // Variables
     "no-delete-var": "error",
+    "no-shadow-restricted-names": "error",
     // Stylistic Issues
     "semi": "error",
   },
