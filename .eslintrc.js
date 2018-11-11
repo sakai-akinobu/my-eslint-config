@@ -28,6 +28,7 @@ module.exports = {
     "no-irregular-whitespace": "error",
     "no-obj-calls": "error",
     "no-regex-spaces": "error",
+    "no-sparse-arrays": "error",
     // Stylistic Issues
     "semi": "error",
   },
