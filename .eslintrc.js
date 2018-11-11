@@ -91,6 +91,7 @@ module.exports = {
     "no-multiple-empty-lines": ["error", {max: 2, maxEOF: 0, maxBOF: 1}],
     "no-trailing-spaces": ["error", {skipBlankLines: true}],
     "no-whitespace-before-property": "error",
+    "object-curly-spacing": "error",
     "semi": "error",
   },
 };
