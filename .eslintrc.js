@@ -41,6 +41,7 @@ module.exports = {
     "block-scoped-var": "error",
     "consistent-return": "error",
     "dot-location": "error",
+    "dot-notation": "error",
     // Stylistic Issues
     "semi": "error",
   },
