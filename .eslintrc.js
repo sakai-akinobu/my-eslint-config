@@ -35,6 +35,7 @@ module.exports = {
     "no-unsafe-finally": "error",
     "no-unsafe-negation": "error",
     "use-isnan": "error",
+    "valid-typeof": "error",
     // Stylistic Issues
     "semi": "error",
   },
