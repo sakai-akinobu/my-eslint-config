@@ -48,6 +48,7 @@ module.exports = {
     "no-empty-pattern": "error",
     "no-eq-null": "error",
     "no-eval": "error",
+    "no-extra-label": "error",
     // Stylistic Issues
     "semi": "error",
   },
