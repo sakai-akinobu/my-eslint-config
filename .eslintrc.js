@@ -58,6 +58,7 @@ module.exports = {
     "no-redeclare": "error",
     "no-return-assign": "error",
     "no-self-assign": "error",
+    "no-unused-labels": "error",
     // Stylistic Issues
     "semi": "error",
   },
