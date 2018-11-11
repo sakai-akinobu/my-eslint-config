@@ -1,6 +1,9 @@
 module.exports = {
   parserOptions: {
     ecmaVersion: 2018,
+    ecmaFeatures: {
+      jsx: true,
+    },
   },
   rules: {
     // Possible Errors
@@ -77,6 +80,7 @@ module.exports = {
     "eol-last": "error",
     "func-call-spacing": "error",
     "indent": ["error", 2],
+    "jsx-quotes": "error",
     "semi": "error",
   },
 };
