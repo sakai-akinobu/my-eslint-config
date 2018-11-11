@@ -82,6 +82,7 @@ module.exports = {
     "indent": ["error", 2],
     "jsx-quotes": "error",
     "key-spacing": "error",
+    "keyword-spacing": "error",
     "semi": "error",
   },
 };
