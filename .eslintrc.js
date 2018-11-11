@@ -27,6 +27,7 @@ module.exports = {
     "no-invalid-regexp": "error",
     "no-irregular-whitespace": "error",
     "no-obj-calls": "error",
+    "no-regex-spaces": "error",
     // Stylistic Issues
     "semi": "error",
   },
