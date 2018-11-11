@@ -60,6 +60,8 @@ module.exports = {
     "no-self-assign": "error",
     "no-unused-labels": "error",
     "no-useless-escape": "error",
+    // Variables
+    "no-delete-var": "error",
     // Stylistic Issues
     "semi": "error",
   },
