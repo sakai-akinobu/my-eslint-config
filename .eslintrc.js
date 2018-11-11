@@ -97,5 +97,6 @@ module.exports = {
     "semi-spacing": "error",
     "space-before-blocks": "error",
     "space-before-function-paren": ["error", "never"],
+    "space-in-parens": "error",
   },
 };
