@@ -42,6 +42,7 @@ module.exports = {
     "consistent-return": "error",
     "dot-location": "error",
     "dot-notation": "error",
+    "eqeqeq": "error",
     // Stylistic Issues
     "semi": "error",
   },
