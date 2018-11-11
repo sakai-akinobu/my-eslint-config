@@ -98,5 +98,6 @@ module.exports = {
     "space-before-blocks": "error",
     "space-before-function-paren": ["error", "never"],
     "space-in-parens": "error",
+    "space-unary-ops": "error",
   },
 };
