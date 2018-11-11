@@ -75,6 +75,7 @@ module.exports = {
     "comma-style": ["error", "last"],
     "computed-property-spacing": "error",
     "eol-last": "error",
+    "func-call-spacing": "error",
     "semi": "error",
   },
 };
