@@ -34,6 +34,7 @@ module.exports = {
     "no-unreachable": "error",
     "no-unsafe-finally": "error",
     "no-unsafe-negation": "error",
+    "use-isnan": "error",
     // Stylistic Issues
     "semi": "error",
   },
