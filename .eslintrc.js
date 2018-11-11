@@ -110,5 +110,6 @@ module.exports = {
     "no-dupe-class-members": "error",
     "no-this-before-super": "error",
     "no-var": "error",
+    "prefer-const": "error",
   },
 };
