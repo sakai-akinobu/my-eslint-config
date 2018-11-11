@@ -33,6 +33,7 @@ module.exports = {
     "no-unexpected-multiline": "error",
     "no-unreachable": "error",
     "no-unsafe-finally": "error",
+    "no-unsafe-negation": "error",
     // Stylistic Issues
     "semi": "error",
   },
