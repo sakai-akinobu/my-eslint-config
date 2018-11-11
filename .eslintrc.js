@@ -40,6 +40,7 @@ module.exports = {
     "array-callback-return": "error",
     "block-scoped-var": "error",
     "consistent-return": "error",
+    "dot-location": "error",
     // Stylistic Issues
     "semi": "error",
   },
