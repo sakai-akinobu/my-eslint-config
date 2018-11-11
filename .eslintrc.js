@@ -67,6 +67,7 @@ module.exports = {
     "no-undefined": "error",
     "no-unused-vars": "error",
     // Stylistic Issues
+    "array-bracket-spacing": ["error", "never"],
     "semi": "error",
   },
 };
