@@ -81,6 +81,7 @@ module.exports = {
     "func-call-spacing": "error",
     "indent": ["error", 2],
     "jsx-quotes": "error",
+    "key-spacing": "error",
     "semi": "error",
   },
 };
