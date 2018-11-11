@@ -100,5 +100,6 @@ module.exports = {
     "space-in-parens": "error",
     "space-unary-ops": "error",
     "spaced-comment": "error",
+    "switch-colon-spacing": "error",
   },
 };
