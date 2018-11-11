@@ -89,6 +89,7 @@ module.exports = {
     "new-parens": "error",
     "no-mixed-spaces-and-tabs": "error",
     "no-multiple-empty-lines": ["error", {max: 2, maxEOF: 0, maxBOF: 1}],
+    "no-trailing-spaces": ["error", {skipBlankLines: true}],
     "semi": "error",
   },
 };
