@@ -53,6 +53,7 @@ module.exports = {
     "no-global-assign": "error",
     "no-implied-eval": "error",
     "no-lone-blocks": "error",
+    "no-multi-spaces": "error",
     // Stylistic Issues
     "semi": "error",
   },
