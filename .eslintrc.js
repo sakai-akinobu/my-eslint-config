@@ -102,5 +102,7 @@ module.exports = {
     "spaced-comment": "error",
     "switch-colon-spacing": "error",
     "template-tag-spacing": "error",
+    // ECMAScript 6
+    "arrow-spacing": "error",
   },
 };
