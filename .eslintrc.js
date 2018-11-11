@@ -95,5 +95,6 @@ module.exports = {
     "quotes": ["error", "single"],
     "semi": "error",
     "semi-spacing": "error",
+    "space-before-blocks": "error",
   },
 };
