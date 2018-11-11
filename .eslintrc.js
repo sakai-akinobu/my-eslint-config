@@ -76,6 +76,7 @@ module.exports = {
     "computed-property-spacing": "error",
     "eol-last": "error",
     "func-call-spacing": "error",
+    "indent": ["error", 2],
     "semi": "error",
   },
 };
