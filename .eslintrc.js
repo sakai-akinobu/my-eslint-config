@@ -54,6 +54,7 @@ module.exports = {
     "no-implied-eval": "error",
     "no-lone-blocks": "error",
     "no-multi-spaces": "error",
+    "no-octal": "error",
     // Stylistic Issues
     "semi": "error",
   },
