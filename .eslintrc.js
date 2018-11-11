@@ -107,5 +107,6 @@ module.exports = {
     "constructor-super": "error",
     "no-class-assign": "error",
     "no-const-assign": "error",
+    "no-dupe-class-members": "error",
   },
 };
