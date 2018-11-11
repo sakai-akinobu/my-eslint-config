@@ -57,6 +57,7 @@ module.exports = {
     "no-octal": "error",
     "no-redeclare": "error",
     "no-return-assign": "error",
+    "no-self-assign": "error",
     // Stylistic Issues
     "semi": "error",
   },
