@@ -31,6 +31,7 @@ module.exports = {
     "no-sparse-arrays": "error",
     "no-template-curly-in-string": "error",
     "no-unexpected-multiline": "error",
+    "no-unreachable": "error",
     // Stylistic Issues
     "semi": "error",
   },
