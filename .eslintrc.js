@@ -38,6 +38,7 @@ module.exports = {
     "valid-typeof": "error",
     // Best Practices
     "array-callback-return": "error",
+    "block-scoped-var": "error",
     // Stylistic Issues
     "semi": "error",
   },
