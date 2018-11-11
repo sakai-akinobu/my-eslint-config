@@ -30,6 +30,7 @@ module.exports = {
     "no-regex-spaces": "error",
     "no-sparse-arrays": "error",
     "no-template-curly-in-string": "error",
+    "no-unexpected-multiline": "error",
     // Stylistic Issues
     "semi": "error",
   },
