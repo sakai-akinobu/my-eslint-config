@@ -105,5 +105,6 @@ module.exports = {
     // ECMAScript 6
     "arrow-spacing": "error",
     "constructor-super": "error",
+    "no-class-assign": "error",
   },
 };
