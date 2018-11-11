@@ -87,6 +87,7 @@ module.exports = {
     "max-depth": "error",
     "max-nested-callbacks": ["error", {max: 3}],
     "new-parens": "error",
+    "no-mixed-spaces-and-tabs": "error",
     "semi": "error",
   },
 };
