@@ -26,6 +26,7 @@ module.exports = {
     "no-inner-declarations": "error",
     "no-invalid-regexp": "error",
     "no-irregular-whitespace": "error",
+    "no-obj-calls": "error",
     // Stylistic Issues
     "semi": "error",
   },
