@@ -108,5 +108,6 @@ module.exports = {
     "no-class-assign": "error",
     "no-const-assign": "error",
     "no-dupe-class-members": "error",
+    "no-this-before-super": "error",
   },
 };
