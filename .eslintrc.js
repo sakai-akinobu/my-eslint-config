@@ -51,6 +51,7 @@ module.exports = {
     "no-extra-label": "error",
     "no-fallthrough": "error",
     "no-global-assign": "error",
+    "no-implied-eval": "error",
     // Stylistic Issues
     "semi": "error",
   },
