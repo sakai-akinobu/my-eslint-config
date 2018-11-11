@@ -66,6 +66,7 @@ module.exports = {
     "no-undef": "error",
     "no-undefined": "error",
     "no-unused-vars": "error",
+    "brace-style": "error",
     // Stylistic Issues
     "array-bracket-spacing": ["error", "never"],
     "block-spacing": ["error", "always"],
