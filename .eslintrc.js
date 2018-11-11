@@ -71,6 +71,7 @@ module.exports = {
     "block-spacing": ["error", "always"],
     "brace-style": "error",
     "comma-dangle": ["error", "always-multiline"],
+    "comma-spacing": "error",
     "semi": "error",
   },
 };
