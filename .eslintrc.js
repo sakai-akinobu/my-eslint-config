@@ -55,6 +55,7 @@ module.exports = {
     "no-lone-blocks": "error",
     "no-multi-spaces": "error",
     "no-octal": "error",
+    "no-redeclare": "error",
     // Stylistic Issues
     "semi": "error",
   },
