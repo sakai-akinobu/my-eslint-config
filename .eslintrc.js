@@ -47,6 +47,7 @@ module.exports = {
     "no-case-declarations": "error",
     "no-empty-pattern": "error",
     "no-eq-null": "error",
+    "no-eval": "error",
     // Stylistic Issues
     "semi": "error",
   },
