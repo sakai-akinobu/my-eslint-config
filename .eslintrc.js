@@ -64,6 +64,7 @@ module.exports = {
     "no-delete-var": "error",
     "no-shadow-restricted-names": "error",
     "no-undef": "error",
+    "no-undefined": "error",
     // Stylistic Issues
     "semi": "error",
   },
