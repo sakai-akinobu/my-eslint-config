@@ -49,6 +49,7 @@ module.exports = {
     "no-eq-null": "error",
     "no-eval": "error",
     "no-extra-label": "error",
+    "no-fallthrough": "error",
     // Stylistic Issues
     "semi": "error",
   },
