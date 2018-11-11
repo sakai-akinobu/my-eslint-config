@@ -56,6 +56,7 @@ module.exports = {
     "no-multi-spaces": "error",
     "no-octal": "error",
     "no-redeclare": "error",
+    "no-return-assign": "error",
     // Stylistic Issues
     "semi": "error",
   },
