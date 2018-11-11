@@ -94,5 +94,6 @@ module.exports = {
     "object-curly-spacing": "error",
     "quotes": ["error", "single"],
     "semi": "error",
+    "semi-spacing": "error",
   },
 };
