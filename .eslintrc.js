@@ -39,6 +39,7 @@ module.exports = {
     // Best Practices
     "array-callback-return": "error",
     "block-scoped-var": "error",
+    "consistent-return": "error",
     // Stylistic Issues
     "semi": "error",
   },
