@@ -101,5 +101,6 @@ module.exports = {
     "space-unary-ops": "error",
     "spaced-comment": "error",
     "switch-colon-spacing": "error",
+    "template-tag-spacing": "error",
   },
 };
