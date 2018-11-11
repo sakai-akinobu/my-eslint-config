@@ -83,6 +83,7 @@ module.exports = {
     "jsx-quotes": "error",
     "key-spacing": "error",
     "keyword-spacing": "error",
+    "linebreak-style": "error",
     "semi": "error",
   },
 };
