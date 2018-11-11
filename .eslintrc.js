@@ -43,6 +43,7 @@ module.exports = {
     "dot-location": "error",
     "dot-notation": "error",
     "eqeqeq": "error",
+    "no-caller": "error",
     // Stylistic Issues
     "semi": "error",
   },
