@@ -104,5 +104,6 @@ module.exports = {
     "template-tag-spacing": "error",
     // ECMAScript 6
     "arrow-spacing": "error",
+    "constructor-super": "error",
   },
 };
