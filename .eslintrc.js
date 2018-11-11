@@ -99,5 +99,6 @@ module.exports = {
     "space-before-function-paren": ["error", "never"],
     "space-in-parens": "error",
     "space-unary-ops": "error",
+    "spaced-comment": "error",
   },
 };
