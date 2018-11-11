@@ -92,6 +92,7 @@ module.exports = {
     "no-trailing-spaces": ["error", {skipBlankLines: true}],
     "no-whitespace-before-property": "error",
     "object-curly-spacing": "error",
+    "quotes": ["error", "single"],
     "semi": "error",
   },
 };
