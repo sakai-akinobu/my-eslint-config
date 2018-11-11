@@ -73,6 +73,7 @@ module.exports = {
     "comma-dangle": ["error", "always-multiline"],
     "comma-spacing": "error",
     "comma-style": ["error", "last"],
+    "computed-property-spacing": "error",
     "semi": "error",
   },
 };
