@@ -106,5 +106,6 @@ module.exports = {
     "arrow-spacing": "error",
     "constructor-super": "error",
     "no-class-assign": "error",
+    "no-const-assign": "error",
   },
 };
