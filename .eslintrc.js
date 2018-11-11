@@ -29,6 +29,7 @@ module.exports = {
     "no-obj-calls": "error",
     "no-regex-spaces": "error",
     "no-sparse-arrays": "error",
+    "no-template-curly-in-string": "error",
     // Stylistic Issues
     "semi": "error",
   },
