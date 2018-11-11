@@ -111,5 +111,6 @@ module.exports = {
     "no-this-before-super": "error",
     "no-var": "error",
     "prefer-const": "error",
+    "rest-spread-spacing": "error",
   },
 };
