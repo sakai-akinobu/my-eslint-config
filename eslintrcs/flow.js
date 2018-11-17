@@ -17,5 +17,6 @@ module.exports = {
     "flowtype/delimiter-dangle": ["error", "always-multiline"],
     "flowtype/generic-spacing": "error",
     "flowtype/no-dupe-keys": "error",
+    "flowtype/no-primitive-constructor-types": "error",
   },
 };
