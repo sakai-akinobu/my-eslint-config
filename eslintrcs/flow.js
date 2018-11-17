@@ -20,5 +20,6 @@ module.exports = {
     "flowtype/no-primitive-constructor-types": "error",
     "flowtype/no-types-missing-file-annotation": "error",
     "flowtype/object-type-delimiter": "error",
+    "flowtype/semi": "error",
   },
 };
