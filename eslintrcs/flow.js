@@ -21,5 +21,6 @@ module.exports = {
     "flowtype/no-types-missing-file-annotation": "error",
     "flowtype/object-type-delimiter": "error",
     "flowtype/semi": "error",
+    "flowtype/space-after-type-colon": "error",
   },
 };
