@@ -22,5 +22,6 @@ module.exports = {
     "flowtype/object-type-delimiter": "error",
     "flowtype/semi": "error",
     "flowtype/space-after-type-colon": "error",
+    "flowtype/space-before-generic-bracket": "error",
   },
 };
