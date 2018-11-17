@@ -25,5 +25,6 @@ module.exports = {
     "flowtype/space-before-generic-bracket": "error",
     "flowtype/space-before-type-colon": "error",
     "flowtype/type-import-style": ["error", "declaration"],
+    "flowtype/union-intersection-spacing": "error",
   },
 };
