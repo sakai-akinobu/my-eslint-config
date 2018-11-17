@@ -2,11 +2,19 @@ const execSync = require('child_process').execSync;
 const path = require('path');
 const klawSync = require('klaw-sync');
 const assert = require('power-assert');
+const minimist = require('minimist');
 
+const args = minimist(process.argv.slice(3));
+const target = args.target || 'all';
 const languages = [
   'javascript',
   'flow',
-];
+].filter(language => {
+  if (target === 'all') {
+    return true;
+  }
+  return language == target;
+});
 
 function getRuleNameWithLanguage(language, ruleName) {
   switch (language) {

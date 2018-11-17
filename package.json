@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx mocha tests/index.js"
+    "test": "npx mocha tests/index.js",
+    "test:javascript": "npx mocha tests/index.js --target=javascript",
+    "test:flow": "npx mocha tests/index.js --target=flow"
   },
   "repository": {
     "type": "git",
@@ -21,6 +23,7 @@
     "eslint": "^5.8.0",
     "eslint-plugin-flowtype": "^3.2.0",
     "klaw-sync": "^6.0.0",
+    "minimist": "^1.2.0",
     "mocha": "^5.2.0",
     "power-assert": "^1.6.1"
   }
