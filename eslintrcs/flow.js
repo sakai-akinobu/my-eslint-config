@@ -15,5 +15,6 @@ module.exports = {
     "flowtype/array-style-simple-type": ["error", "shorthand"],
     "flowtype/boolean-style": "error",
     "flowtype/delimiter-dangle": ["error", "always-multiline"],
+    "flowtype/generic-spacing": "error",
   },
 };
