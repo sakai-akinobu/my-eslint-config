@@ -12,6 +12,7 @@ module.exports = {
     },
   },
   rules: {
-    "array-style-simple-type": ["error", "shorthand"],
+    "flowtype/array-style-simple-type": ["error", "shorthand"],
+    "flowtype/boolean-style": "error",
   },
 };

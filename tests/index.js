@@ -8,6 +8,18 @@ const languages = [
   'flow',
 ];
 
+function getRuleNameWithLanguage(language, ruleName) {
+  switch (language) {
+    case 'flow':
+      return `flowtype/${ruleName}`;
+    case 'javascript':
+      return ruleName;
+    default:
+      throw new Error(`Unexpected language was given. ${language}`);
+  }
+  return language;
+}
+
 function getFixtures(language) {
   const fixtureDir = path.join(__dirname, '..', 'fixtures', language);
   return klawSync(fixtureDir, {nodir: true}).
@@ -24,8 +36,8 @@ describe('index.js', function() {
           assert.throws(() => {
             execSync(`npx eslint --config ./eslintrcs/${language}.js --format json ${fixture}`).toString();
           }, (e) => {
-            eslintError = JSON.parse(e.output[1].toString())[0];
-            return eslintError.messages.some(m => m.ruleId === ruleName);
+            const eslintError = JSON.parse(e.output[1].toString())[0];
+            return eslintError.messages.some(m => m.ruleId === getRuleNameWithLanguage(language, ruleName));
           }, `A voilotion of the ${ruleName} rule has not been detected.`);
         });
       });
