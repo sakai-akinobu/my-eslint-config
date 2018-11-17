@@ -9,5 +9,6 @@ module.exports = {
   rules: {
     "typescript/class-name-casing": "error",
     "typescript/member-delimiter-style": "error",
+    "typescript/no-angle-bracket-type-assertion": "error",
   },
 };
