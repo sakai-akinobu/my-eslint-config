@@ -1,0 +1,2 @@
+// @flow
+const Foo : string = '';
