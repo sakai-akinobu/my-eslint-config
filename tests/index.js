@@ -9,6 +9,7 @@ const target = args.target || 'all';
 const languages = [
   'javascript',
   'flow',
+  'typescript',
 ].filter(language => {
   if (target === 'all') {
     return true;
@@ -20,6 +21,8 @@ function getRuleNameWithLanguage(language, ruleName) {
   switch (language) {
     case 'flow':
       return `flowtype/${ruleName}`;
+    case 'typescript':
+      return `typescript/${ruleName}`;
     case 'javascript':
       return ruleName;
     default:
@@ -32,7 +35,7 @@ function getFixtures(language) {
   const fixtureDir = path.join(__dirname, '..', 'fixtures', language);
   return klawSync(fixtureDir, {nodir: true}).
     map(file => file.path).
-    filter(path => path.endsWith('.js'));
+    filter(path => path.match(/\.js|ts$/));
 }
 
 describe('index.js', function() {

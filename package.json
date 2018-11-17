@@ -6,7 +6,8 @@
   "scripts": {
     "test": "npx mocha tests/index.js",
     "test:javascript": "npx mocha tests/index.js --target=javascript",
-    "test:flow": "npx mocha tests/index.js --target=flow"
+    "test:flow": "npx mocha tests/index.js --target=flow",
+    "test:typescript": "npx mocha tests/index.js --target=typescript"
   },
   "repository": {
     "type": "git",
@@ -27,6 +28,7 @@
     "minimist": "^1.2.0",
     "mocha": "^5.2.0",
     "power-assert": "^1.6.1",
+    "typescript": "^3.1.6",
     "typescript-eslint-parser": "^21.0.1"
   }
 }
