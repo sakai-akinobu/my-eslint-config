@@ -19,5 +19,6 @@ module.exports = {
     "flowtype/no-dupe-keys": "error",
     "flowtype/no-primitive-constructor-types": "error",
     "flowtype/no-types-missing-file-annotation": "error",
+    "flowtype/object-type-delimiter": "error",
   },
 };
