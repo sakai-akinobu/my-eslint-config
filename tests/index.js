@@ -22,7 +22,7 @@ function getRuleNameWithLanguage(language, ruleName) {
     case 'flow':
       return `flowtype/${ruleName}`;
     case 'typescript':
-      return `typescript/${ruleName}`;
+      return `@typescript-eslint/${ruleName}`;
     case 'javascript':
       return ruleName;
     default:
