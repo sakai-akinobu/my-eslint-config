@@ -13,5 +13,6 @@ module.exports = {
     "@typescript-eslint/type-annotation-spacing": "error",
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/ban-types": "error",
+    "@typescript-eslint/indent": ["error", 2],
   },
 };
