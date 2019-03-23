@@ -12,5 +12,6 @@ module.exports = {
     "@typescript-eslint/no-angle-bracket-type-assertion": "error",
     "@typescript-eslint/type-annotation-spacing": "error",
     "@typescript-eslint/adjacent-overload-signatures": "error",
+    "@typescript-eslint/ban-types": "error",
   },
 };
