@@ -2,7 +2,7 @@ module.exports = {
   extends: [
     "./javascript.js",
   ],
-  parser: "typescript-eslint-parser",
+  parser: "@typescript-eslint/parser",
   plugins: [
     "typescript",
   ],
