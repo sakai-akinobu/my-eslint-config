@@ -15,5 +15,6 @@ module.exports = {
     "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/no-empty-interface": "error",
+    "@typescript-eslint/no-triple-slash-reference": "error",
   },
 };
