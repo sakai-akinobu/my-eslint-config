@@ -4,12 +4,12 @@ module.exports = {
   ],
   parser: "@typescript-eslint/parser",
   plugins: [
-    "typescript",
+    "@typescript-eslint",
   ],
   rules: {
-    "typescript/class-name-casing": "error",
-    "typescript/member-delimiter-style": "error",
-    "typescript/no-angle-bracket-type-assertion": "error",
-    "typescript/type-annotation-spacing": "error",
+    "@typescript-eslint/class-name-casing": "error",
+    "@typescript-eslint/member-delimiter-style": "error",
+    "@typescript-eslint/no-angle-bracket-type-assertion": "error",
+    "@typescript-eslint/type-annotation-spacing": "error",
   },
 };
