@@ -14,5 +14,6 @@ module.exports = {
     "@typescript-eslint/adjacent-overload-signatures": "error",
     "@typescript-eslint/ban-types": "error",
     "@typescript-eslint/indent": ["error", 2],
+    "@typescript-eslint/no-empty-interface": "error",
   },
 };
