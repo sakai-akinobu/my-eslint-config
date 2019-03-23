@@ -11,5 +11,6 @@ module.exports = {
     "@typescript-eslint/member-delimiter-style": "error",
     "@typescript-eslint/no-angle-bracket-type-assertion": "error",
     "@typescript-eslint/type-annotation-spacing": "error",
+    "@typescript-eslint/adjacent-overload-signatures": "error",
   },
 };
