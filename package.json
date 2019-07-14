@@ -20,15 +20,15 @@
   },
   "homepage": "https://github.com/sakai-akinobu/my-eslint-config#readme",
   "devDependencies": {
-    "@typescript-eslint/eslint-plugin": "^1.5.0",
-    "@typescript-eslint/parser": "^1.5.0",
-    "babel-eslint": "^10.0.1",
-    "eslint": "^5.8.0",
-    "eslint-plugin-flowtype": "^3.2.0",
+    "@typescript-eslint/eslint-plugin": "^1.12.0",
+    "@typescript-eslint/parser": "^1.12.0",
+    "babel-eslint": "^10.0.2",
+    "eslint": "^5.16.0",
+    "eslint-plugin-flowtype": "^3.11.1",
     "klaw-sync": "^6.0.0",
     "minimist": "^1.2.0",
     "mocha": "^5.2.0",
     "power-assert": "^1.6.1",
-    "typescript": "^3.3.4000"
+    "typescript": "^3.5.3"
   }
 }
