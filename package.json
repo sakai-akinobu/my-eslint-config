@@ -26,7 +26,7 @@
     "eslint": "^5.16.0",
     "eslint-plugin-flowtype": "^3.11.1",
     "klaw-sync": "^6.0.0",
-    "minimist": "^1.2.0",
+    "minimist": "^1.2.2",
     "mocha": "^5.2.0",
     "power-assert": "^1.6.1",
     "typescript": "^3.5.3"
